@@ -19,7 +19,7 @@ h2 {
     margin: 20px 0; /* Optional: add margin above and below */
 }
 nav {
-    background-color: rgb(255, 99, 71); /* Dark background for the nav */
+    background-color: lightblue; /* Dark background for the nav */
     padding: 10px; /* Padding around the nav */
 }
 
@@ -35,7 +35,7 @@ nav ul li {
 }
 
 nav a {
-    color: white; /* Link color */
+    color: lightblue; /* Link color */
     text-decoration: none; /* Remove underline */
     padding: 8px 16px; /* Padding for clickable area */
     border-radius: 4px; /* Rounded corners */
