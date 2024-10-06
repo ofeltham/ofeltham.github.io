@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: darkblue; /* Change background on hover */
+    background-color: #C2B280; /* Change background on hover */
 }
 
 nav a.active {
