@@ -21,6 +21,7 @@ h2 {
 nav {
     background-color: lightblue; /* Dark background for the nav */
     padding: 10px; /* Padding around the nav */
+    border-radius: 15px; /* Adjust this value for more or less rounding */
 }
 
 nav ul {
