@@ -1,7 +1,8 @@
 body {
+    background-color: #E6F7FF; /* Example: Pale Light Blue */
+    color: #333; /* Dark text for contrast */
     font-family: Arial, sans-serif; /* Example font */
-    margin: 0;
-    padding: 0;
+    padding: 20px; /* Padding around the body */
 }
 h1 {
     font-family: 'Arial', sans-serif; /* Change 'Arial' to your desired font */
