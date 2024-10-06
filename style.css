@@ -3,7 +3,20 @@ body {
     margin: 0;
     padding: 0;
 }
-
+h1 {
+    font-family: 'Arial', sans-serif; /* Change 'Arial' to your desired font */
+    font-size: 36px; /* Optional: change the font size */
+    font-weight: bold; /* Optional: make the font bold */
+    color: #333; /* Optional: change the text color */
+    margin: 20px 0; /* Optional: add margin above and below */
+}
+h2 {
+    font-family: 'Arial', sans-serif; /* Change 'Arial' to your desired font */
+    font-size: 24px; /* Optional: change the font size */
+    font-weight: bold; /* Optional: make the font bold */
+    color: #333; /* Optional: change the text color */
+    margin: 20px 0; /* Optional: add margin above and below */
+}
 nav {
     background-color: #333; /* Dark background for the nav */
     padding: 10px; /* Padding around the nav */
