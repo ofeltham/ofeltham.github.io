@@ -1,27 +1,42 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Example font */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+nav {
+    background-color: #333; /* Dark background for the nav */
+    padding: 10px; /* Padding around the nav */
 }
 
-main {
-    padding: 20px;
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox to align items horizontally */
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+nav ul li {
+    margin-right: 20px; /* Space between list items */
+}
+
+nav a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 8px 16px; /* Padding for clickable area */
+    border-radius: 4px; /* Rounded corners */
+}
+
+nav a:hover {
+    background-color: #555; /* Change background on hover */
+}
+
+nav a.active {
+    background-color: #007BFF; /* Active link background color */
+    color: white; /* Active link text color */
+}
+
+.content {
+    padding: 20px; /* Padding for the content area */
+    background-color: #f4f4f4; /* Light background for content */
 }
