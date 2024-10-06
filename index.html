@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Change Background Color</title>
     <title>Oliver Feltham</title>
+    <title>Oliver Feltham</title> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo on Right, Text on Left</title>
+    <style>
+        .photo {
+            float: right;
+            margin-left: 20px;
+            max-width: 200px; /* Adjust the size of the image */
+        }
+
+        .text {
+            margin-right: 220px; /* Provide space for the image */
+        }
+    </style>
 </head>
 <body style="background-color: skyblue;">
     <h1 style="text-align: center;">Oliver Feltham</h1>
@@ -14,6 +28,13 @@
     <img src="IMG_7560.jpeg" width="400">
     <figcaption>This is a caption for the PNG image.</figcaption>
 </figure>
+    <div class="container">
+        <img class="photo" src="photo.jpg" alt="Example Photo">
+        <div class="text">
+            <h1>This is a Heading</h1>
+            <p>This is some text that will be aligned on the left-hand side of the page. You can add more content here as needed.</p>
+        </div>
+    </div>
 </body>
 </html>
 
@@ -21,31 +42,3 @@
     <a href="index.html">Home</a>
     <a href="research.html">Research</a>
 </nav>
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-main {
-    padding: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
