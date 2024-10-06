@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<nav>
-    <a href="index.html">Home</a>
-    <a href="research.html">Research</a>
-    <a href="teaching.html"> Teaching</a>
-</nav>
 <head>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oliver Feltham</title>
+    <title>Image on Right, Text on Left</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 800px; /* Adjust as needed */
+            margin: auto;
+            padding: 20px;
+        }
+        .text {
+            flex: 1; /* Allow text to take available space */
+            padding-right: 20px; /* Space between text and image */
+        }
+        .image {
+            flex-shrink: 0; /* Prevent image from shrinking */
+            width: 200px; /* Adjust size as needed */
+        }
+    </style>
 </head>
-<body style="background-color: skyblue;">
+<body>
     <div class="container">
         <div class="text">
-            <h1 style="text-align: center;">Oliver Feltham</h1>
+            <h1>Oliver Feltham</h1>
             <h2>Welcome to my website!</h2>
             <p>I am a PhD candidate in economics at CREED at the University of Amsterdam, under the supervision of Arthur Schram and Randolph Sloof. My research interests are in the fields of political economy, behavioural economics and applied microeconomics.</p>
         </div>
-        <img class="photo" src="IMG_7560.jpeg" alt="Example Photo" style="width: 300px; height: auto;">
+        <img src="your-image-url.jpg" alt="Description of the image" class="image">
     </div>
 </body>
 </html>
