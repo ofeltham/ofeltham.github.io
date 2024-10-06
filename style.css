@@ -83,7 +83,13 @@ h2 {
     align-items: center;
     margin-top: 20px;
 }
+.about-text {
+    flex: 1; /* Allow the text to take remaining space */
+}
 
+.about-text p {
+    margin-bottom: 7.5px; /* Half of the typical spacing */
+}
 .profile-image {
     width: 200px;
     height: 200px;
