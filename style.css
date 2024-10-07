@@ -66,3 +66,10 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.profile-image {
+    float: right; /* Float image to the right */
+    margin-left: 15px; /* Add space between image and text */
+    max-width: 200px; /* Set a max width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
