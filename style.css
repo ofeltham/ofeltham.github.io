@@ -168,3 +168,43 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* General styling for the navbar */
+.navbar {
+  width: 100%;
+  background-color: #333; /* Change color as needed */
+  padding: 10px 0;
+}
+
+/* Styling for the list inside the navbar */
+.nav-list {
+  display: flex; /* Flexbox to make the list items appear in a row */
+  flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  overflow-x: auto; /* Allow horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+}
+
+/* Style for individual nav items */
+.nav-item {
+  margin-right: 20px; /* Space between nav items */
+}
+
+/* Links inside the nav bar */
+.nav-item a {
+  color: white; /* Change to your preferred color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px;
+  display: block;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 768px) {
+  .nav-list {
+    /* Ensure the nav list is scrollable horizontally on small screens */
+    overflow-x: auto;
+    white-space: nowrap; /* Prevent text wrapping inside nav items */
+  }
+}
