@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #e6f0fa; /* Very light blue background */
     color: #333; /* Dark text color for readability */
+    font-size: 16px;
 }
 
 /* Header Styles */
