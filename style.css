@@ -5,6 +5,40 @@
     box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  justify-content: space-between; /* Space items evenly */
+}
+
+.responsive-img {
+  max-width: 40%; /* Image occupies 40% of the container's width */
+  height: auto; /* Maintain image aspect ratio */
+  margin-right: 20px; /* Space between image and text */
+}
+
+.text {
+  width: 55%; /* Text occupies 55% of the container's width */
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .responsive-img {
+    max-width: 100%; /* Full width for image on smaller screens */
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 10px; /* Space below the image */
+  }
+
+  .text {
+    width: 100%; /* Full width for text */
+    text-align: center; /* Optional: Center the text on smaller screens */
+  }
+}
+
 /* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
@@ -133,22 +167,4 @@ a:hover {
 img {
   max-width: 100%;
   height: auto;
-}
-
-/* Media Queries for responsiveness */
-@media only screen and (max-width: 768px) {
-  .container {
-    flex-direction: column; /* Stack image and text vertically */
-    align-items: flex-start; /* Align items to the left */
-  }
-
-  .responsive-img {
-    max-width: 100%; /* Image takes full width on small screens */
-    margin-right: 0; /* Remove the margin on smaller screens */
-    margin-bottom: 10px; /* Add space below the image */
-  }
-
-  .text {
-    width: 100%; /* Text takes full width on small screens */
-  }
 }
