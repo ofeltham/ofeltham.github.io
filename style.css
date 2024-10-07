@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f0fa; /* Very light blue background */
+    color: #333; /* Dark text color for readability */
+}
+
+/* Header Styles */
+header {
+    background-color: #003366; /* Darker blue header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display navigation items inline */
+    margin: 0 15px; /* Space between navigation items */
+}
+
+nav ul li a {
+    color: white; /* White text for navigation links */
+    text-decoration: none; /* Remove underline */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px; /* Space between sections */
+}
+
+h2 {
+    color: #003366; /* Darker blue for section headings */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003366; /* Darker blue footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Allow proper placement */
+    bottom: 0;
+    width: 100%;
+}
