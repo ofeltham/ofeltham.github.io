@@ -125,10 +125,10 @@ h2 {
     margin-bottom: 7.5px; /* Half of the typical spacing */
 }
 .profile-image {
-    width: 200px;
+    width: 500px;
     height: 300px;
     border-radius: 0%; 
-    margin-right: 20px;
+    margin-left: 50px;
     object-fit: cover;
 }
 
