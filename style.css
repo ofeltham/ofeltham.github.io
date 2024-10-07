@@ -96,3 +96,8 @@ footer {
         margin: 10px 0; /* Add space between items */
     }
 }
+
+nav ul li a.active {
+    background-color: #0057b7; /* Darker blue for the active page */
+    color: white; /* Change the text color to contrast with the background */
+}
