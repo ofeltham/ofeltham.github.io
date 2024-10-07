@@ -58,7 +58,10 @@ h2 {
     color: #003366; /* Darker blue for section headings */
     font-size: 2em;
 }
-
+h3 {
+    color: #003366; /* Darker blue for section headings */
+    font-size: 1.75em;
+}
 p {
     font-size: 1.5em; /* Adjusted font size for paragraphs */
 }
