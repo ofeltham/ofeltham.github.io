@@ -172,8 +172,13 @@ img {
 /* General styling for the navbar */
 .navbar {
   width: 100%;
-  background-color: #333; /* Change color as needed */
+  background-color: #2a3f5c; /* Change color as needed */
   padding: 10px 0;
+}
+
+.nav-container {
+  display: flex; /* Use flexbox to center the items */
+  justify-content: center; /* Center items horizontally */
 }
 
 /* Styling for the list inside the navbar */
