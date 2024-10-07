@@ -18,6 +18,7 @@ header {
 
 h1 {
     margin: 0;
+    font-size: 2em;
 }
 
 /* Navigation Styles */
@@ -55,6 +56,7 @@ section {
 
 h2 {
     color: #003366; /* Darker blue for section headings */
+    font-size: 2em;
 }
 
 p {
