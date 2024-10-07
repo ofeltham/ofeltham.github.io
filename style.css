@@ -57,6 +57,10 @@ h2 {
     color: #003366; /* Darker blue for section headings */
 }
 
+p {
+    font-size: 1em; /* Adjusted font size for paragraphs */
+}
+
 /* Footer Styles */
 footer {
     background-color: #003366; /* Darker blue footer */
