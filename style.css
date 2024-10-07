@@ -127,8 +127,8 @@ h2 {
 .profile-image {
     width: auto;
     height: auto;
-    max-width: none;
-    max-height: none;
+    max-width: 400px;
+    max-height: 300px;
     border-radius: 0%; 
     margin-left: 100px;
     object-fit: cover;
