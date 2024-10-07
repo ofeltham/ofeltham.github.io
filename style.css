@@ -125,12 +125,13 @@ h2 {
     margin-bottom: 7.5px; /* Half of the typical spacing */
 }
 .profile-image {
+    float: right;
     width: auto;
     height: auto;
     max-width: 400px;
     max-height: 300px;
     border-radius: 0%; 
-    margin-left: 100px;
+    margin-left: 50px;
     object-fit: cover;
 }
 
