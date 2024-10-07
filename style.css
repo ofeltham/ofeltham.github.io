@@ -99,5 +99,7 @@ footer {
 
 nav ul li a.active {
     background-color: #0057b7; /* Darker blue for the active page */
-    color: white; /* Change the text color to contrast with the background */
+    color: white; /* Change text color */
+    border-radius: 5px; /* Optional: round the corners */
+    padding: 5px 10px; /* Optional: add some padding */
 }
