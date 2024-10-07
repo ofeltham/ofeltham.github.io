@@ -73,3 +73,17 @@ footer {
     max-width: 400px; /* Set a max width for the image */
     height: auto; /* Maintain aspect ratio */
 }
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .profile-image {
+        float: none; /* Remove float on smaller screens */
+        display: block; /* Make image block-level */
+        margin: 0 auto; /* Center image */
+    }
+
+    nav ul li {
+        display: block; /* Stack navigation items vertically */
+        margin: 10px 0; /* Add space between items */
+    }
+}
