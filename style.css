@@ -137,25 +137,18 @@ img {
 
 /* Media Queries for responsiveness */
 @media only screen and (max-width: 768px) {
-  .column {
-    width: 100%; /* Stacks columns on smaller screens */
-    margin: 0 0 10px 0;
+  .container {
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+
+  .responsive-img {
+    max-width: 100%; /* Image takes full width on small screens */
+    margin-right: 0; /* Remove the margin on smaller screens */
+    margin-bottom: 10px; /* Add space below the image */
+  }
+
+  .text {
+    width: 100%; /* Text takes full width on small screens */
   }
 }
-
-/* Typography adjustments */
-body {
-  font-size: 16px;
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-}
-
-@media only screen and (max-width: 480px) {
-  body {
-    font-size: 12px;
-}
-
-
