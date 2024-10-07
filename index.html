@@ -7,7 +7,7 @@
     <title>Oliver Feltham</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="about">
+<body>
     <header>
         <h1>Oliver Feltham</h1>
         <nav>
@@ -28,21 +28,5 @@
         <p>Before my academic journey, I worked for the British Civil Service in both analysis and policy roles.</p>
     </main>
 </section>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // Get current URL
-        var currentLocation = window.location.href;
-        
-        // Get all navigation links
-        var navLinks = document.querySelectorAll("nav ul li a");
-
-        // Loop through each link and check if it matches the current URL
-        navLinks.forEach(function(link) {
-            if (link.href === currentLocation) {
-                link.classList.add("active"); // Add the 'active' class
-            }
-        });
-    });
-</script>
 </body>
 </html>
